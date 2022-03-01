@@ -1,0 +1,40 @@
+
+
+.frontHeader{
+
+    .title{
+
+        .title1{
+
+            font-size: 15vh;
+
+        }
+
+        .title2{
+
+            font-size: 5vh;
+
+        }
+    }
+}
+
+
+.directoriesHeader{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+
+    .option:hover{
+        background-color: var(--main-bg-color-2-hover);
+    }
+
+    .option{
+        cursor: pointer;
+        background-color: var(--main-bg-color-2);
+        display: grid;
+        place-items: center;
+        padding: 10px;
+    }
+
+}
