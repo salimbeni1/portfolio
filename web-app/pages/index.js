@@ -1,34 +1,36 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
+import Main from '../components/main'
 
 export default function Home() {
   return (
-    <div style={{margin:"0px 20px"}}>
+    <>
 
 
-      <div className={styles.frontHeader}>
+      <div className={styles.mainBody}>
 
-        <div className={styles.title}>
-          <h1 className={styles.title1}> FULL STACK <br/> DEVELOPER</h1>
-          <h1 className={styles.title2}> ETIENNE SALIMBENI</h1>
+        <div className={styles.column_l}>
+            <div className={styles.red} ></div>
+            <div className={styles.yellow}></div>
+            <div className={styles.red}></div>
         </div>
         
+        <div>
+          <Main />
+        </div>
+        
+        <div className={styles.column_r}>
+          <div className={styles.red}></div>
+          <div className={styles.yellow}></div>
+          <div className={styles.blue}></div>
+        </div>
+
       </div>
-
-      <div className={styles.directoriesHeader}>
-
-        <div className={styles.option}>Projects</div>
-        <div className={styles.option}>Skills Set</div>
-        <div className={styles.option}>About Me</div>
-
-      </div>
-     
-
-
+      
 
       
 
-    </div>
+    </>
   )
 }
