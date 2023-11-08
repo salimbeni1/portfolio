@@ -21,7 +21,7 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 100px auto 100px;
+    grid-template-columns: 60px auto 60px;
 
     .column_l{
         border-right: var(--bs);
@@ -31,9 +31,9 @@
         align-items: center;
         padding: 20px 0px;
         > div{ 
-            width: 40px;
-            height: 40px;
-            border-radius: 40px;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
             border:  var(--bs);
         } 
     }
@@ -46,9 +46,9 @@
         align-items: center;
         padding: 20px 0px;
         > div{
-            width: 40px;
-            height: 40px;
-            border-radius: 40px;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
             border:  var(--bs);
         } 
     }

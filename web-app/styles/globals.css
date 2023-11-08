@@ -1,5 +1,5 @@
 :root {
-  --bs: 5px solid black;
+  --bs: 3px solid black;
   --bg: rgb(249, 255, 254);
   --red1: rgb(231, 40, 10);
   --orange1: rgb(234, 163, 12);
@@ -16,7 +16,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   background-color: var(--bg);
-  font-size: large;
+  
 }
 
 a {
