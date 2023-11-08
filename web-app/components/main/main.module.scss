@@ -8,6 +8,7 @@
         border-bottom: var(--bs);
         display: flex;
         flex-direction: row;
+        font-size: larger;
 
         .pad{
             border-left: 100px solid black;
@@ -91,7 +92,46 @@
 
     .body{
         height: auto;
-        background-color: red;
+
+        .body_header{
+
+            border-bottom: var(--bs);
+            height: 50vh;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+
+            .profile{
+                padding: 30px;
+                height:100%;
+                border-right: var(--bs);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .title{
+                    font-size: xx-large;
+                }
+
+                .img{
+                    margin-top: 80px;
+                    background-color: var(--orange1);
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 200px;
+                    border: var(--bs);
+                }
+            }
+            .text{
+                height:100%;
+                display: grid;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .body_body{
+
+        }
     }
 
     
