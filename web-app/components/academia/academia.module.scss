@@ -1,0 +1,29 @@
+
+
+.main{
+
+
+    > h1{
+        margin-left: 10px;
+    }
+
+    .main_1{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        .uni{
+            display: grid;
+            column-gap: 10px;
+            grid-template-columns: 1fr 1fr;
+        }
+        .publications{
+
+        }
+    }
+
+    .uni_projects{
+        margin-left: 10px;
+    }
+
+
+}
