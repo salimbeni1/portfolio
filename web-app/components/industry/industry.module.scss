@@ -1,0 +1,122 @@
+
+
+.main{
+
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    margin-top: 10px;
+
+    h3{
+        margin: 0;
+    }
+
+    > h1{
+        padding-left: 10px;
+    }
+
+
+
+    .Niantic{
+        height: 100px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 300px 400px 1fr;
+        .Niantic_1{
+            border-top: var(--bs);
+            border-bottom: var(--bs);
+            padding: 0px 10px;
+            border-right: var(--bs);
+        }
+        .Niantic_2{
+            border-top: var(--bs);
+            border-bottom: var(--bs);
+            border-right: var(--bs);
+        }
+        .Niantic_3{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+
+    .Oracle{
+        height: 100px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 300px 400px 1fr;
+        .Oracle_1{
+            border-top: var(--bs);
+            border-bottom: var(--bs);
+            padding: 0px 10px;
+            border-right: var(--bs);
+        }
+        .Oracle_2{
+            border-top: var(--bs);
+            border-bottom: var(--bs);
+            border-right: var(--bs);
+
+        }
+        .Oracle_3{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+
+    .Armasuisse{
+        height: 100px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 300px 400px 1fr;
+        .Armasuisse_1{
+            border-top: var(--bs);
+            border-bottom: var(--bs);
+            padding: 0px 10px;
+            border-right: var(--bs);
+        }
+        .Armasuisse_2{
+            border-top: var(--bs);
+            border-bottom: var(--bs);
+            border-right: var(--bs);
+        }
+        .Armasuisse_3{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+
+    .EPFL{
+        height: 60px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 300px 400px 1fr;
+        .EPFL_1{
+            border-top: var(--bs);
+            border-bottom: var(--bs);
+            padding: 0px 10px;
+            border-right: var(--bs);
+        }
+        .EPFL_2{
+            border-top: var(--bs);
+            border-bottom: var(--bs);
+            border-right: var(--bs);
+        }
+        .EPFL_3{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+
+    
+
+}

@@ -3,7 +3,7 @@
 .body_header{
 
     border-bottom: var(--bs);
-    height: 50vh;
+    min-height: 400px;
     display: grid;
     grid-template-columns: 348px 1fr;
 
@@ -28,6 +28,17 @@
             border-radius: 200px;
             border: var(--bs);
         }
+
+        .icons{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            svg{
+                width: 30px;
+                height: 30px;
+                cursor: pointer;
+            }
+        }
     }
     .text{
         display: grid;
@@ -38,5 +49,5 @@
 }
 
 .body_body{
-
+    height: 200px;
 }

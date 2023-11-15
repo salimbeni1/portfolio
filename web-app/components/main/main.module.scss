@@ -1,13 +1,13 @@
 .container{
     overflow: hidden;
     .header{
-        height: 10vh;
+        height: 80px;
         border-bottom: var(--bs);
         display: flex;
         flex-direction: row;
         font-size: larger;
         .pad{
-            border-left: 100px solid black;
+            border-left: 103px solid black;
             width: 150px;
             background-color: var(--yellow1);
             border-right: var(--bs);
@@ -47,10 +47,10 @@
     }
 
     .header2{
-        height: 10vh;
+        height: 80px;
         border-bottom: var(--bs);
         border-left: var(--bs);
-        margin-left: 95px;
+        margin-left: 100px;
         display: grid;
         grid-template-columns: auto 1fr 1fr;
         width: 100%;
@@ -61,7 +61,7 @@
             flex-direction: row;
             .sec1_1{
 
-                width: 215px;
+                width: 210px;
                 background-color: var(--red1);
                 border-right: var(--bs);
             }
@@ -71,14 +71,14 @@
                 flex-direction: column;
                 .sec1_2_1{
                     width: 35px;
-                    height: 35px;
+                    height: 40px;
                     background-color: var(--blue1);
                     border-bottom: var(--bs);
                     border-right: var(--bs);
                 }
                 .sec1_2_2{
                     width: 35px;
-                    height: 35px;
+                    height: 40px;
                     background-color: var(--bg);
                     border-right: var(--bs);
                 }
@@ -91,7 +91,7 @@
             border-right: var(--bs);
             .sec2_1{
                 width: 100%;
-                height: 35px;
+                height: 40px;
                 border-bottom: var(--bs);
                 display: flex;
                 flex-direction: row;
@@ -110,7 +110,7 @@
             }
             .sec2_2{
                 width: 100%;
-                height: 35px;
+                height: 40px;
                 display: flex;
                 flex-direction: row;
                 background-color: var(--yellow1);
@@ -134,20 +134,20 @@
             .sec3_1{
                 
                 width: 40%;
-                height: 35px;
+                height: 40px;
                 border-bottom: var(--bs);
             }
             .sec3_2{
                 width: 50%;
-                height: 35px;
+                height: 40px;
             }
             .sec3_ball{
                 position: absolute;
-                top: 16px;
+                top: 18px;
                 left: 40%;
                 background-color: var(--bg);
-                width: 35px;
-                height: 35px;
+                width: 40px;
+                height: 40px;
                 border-radius: 35px;
                 border: var(--bs);
             }
@@ -155,6 +155,12 @@
     }
 
     .body{
-        height: auto;
+        height: 80vh;
+        overflow: scroll;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
     }
+    .body::-webkit-scrollbar {
+        display: none;
+      }
 }

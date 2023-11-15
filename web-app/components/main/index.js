@@ -54,7 +54,14 @@ export default function Main() {
             </div>
         </div>
         <div className={styles.body}>
-          {selectedPage == "Intro" ? <Intro/> : <></> }
+          {selectedPage == "Intro" ? 
+          <>
+            <Intro/>
+            <Resume/>
+            <Industry/>
+            <Academia/>
+            <Projects/>
+          </> : <></> }
           {selectedPage == "Resume" ? <Resume/> : <></> }
           {selectedPage == "Industry" ? <Industry/> : <></> }
           {selectedPage == "Academia" ? <Academia/> : <></> }

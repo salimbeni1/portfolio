@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import styles from './intro.module.scss'
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { SiGooglescholar } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 export default class Intro extends Component {
   render() {
@@ -15,6 +18,22 @@ export default class Intro extends Component {
                 
                 <div className={styles.img}>
                 </div>
+
+                <div className={styles.icons}>
+                  <a href="https://www.linkedin.com/in/salimbeni1/" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin  />
+                  </a>
+                  <a href="https://scholar.google.com/citations?user=F21GpVwAAAAJ&hl=fr&oi=sra" target="_blank" rel="noopener noreferrer">
+                    <SiGooglescholar />
+                  </a>
+                  <a href="https://github.com/salimbeni1" target="_blank" rel="noopener noreferrer">
+                    <FaGithub />
+                  </a>
+
+                  <MdEmail/>
+                  
+                </div>
+
               </div>
               <div className={styles.text}>
                 <div>
