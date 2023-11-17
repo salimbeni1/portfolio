@@ -21,7 +21,7 @@
 
 
     .Niantic{
-        height: 100px;
+        min-height: 100px;
         width: 100%;
         display: grid;
         grid-template-columns: 312.5px 400px 1fr;
@@ -35,6 +35,11 @@
             border-top: var(--bs);
             border-bottom: var(--bs);
             border-right: var(--bs);
+            
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
         }
         .Niantic_3{
             display: grid;
@@ -45,7 +50,7 @@
 
 
     .Oracle{
-        height: 100px;
+        min-height: 100px;
         width: 100%;
         display: grid;
         grid-template-columns: 312.5px 400px 1fr;
@@ -60,6 +65,11 @@
             border-bottom: var(--bs);
             border-right: var(--bs);
 
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+
         }
         .Oracle_3{
             display: grid;
@@ -70,7 +80,7 @@
 
 
     .Armasuisse{
-        height: 100px;
+        min-height: 100px;
         width: 100%;
         display: grid;
         grid-template-columns: 312.5px 400px 1fr;
@@ -84,6 +94,11 @@
             border-top: var(--bs);
             border-bottom: var(--bs);
             border-right: var(--bs);
+
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
         }
         .Armasuisse_3{
             display: grid;
@@ -94,7 +109,7 @@
 
 
     .EPFL{
-        height: 60px;
+        min-height: 60px;
         width: 100%;
         display: grid;
         grid-template-columns: 312.5px 400px 1fr;
@@ -108,6 +123,11 @@
             border-top: var(--bs);
             border-bottom: var(--bs);
             border-right: var(--bs);
+
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
         }
         .EPFL_3{
             display: grid;
