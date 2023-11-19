@@ -9,15 +9,23 @@
         margin-bottom: 10px;
     }
 
+    a{
+        //color: var(--blue1);
+        text-decoration: underline;
+    }
+
     .intro{
 
         display: grid;
         grid-template-columns: 50% 50%;
 
         .image{
+            display: grid;
+            align-items: center;
+            justify-content: center;
             > img{
                 border: var(--bs);
-                width: 45%;
+                width: 95%;
             }
 
         }
@@ -32,7 +40,7 @@
             .intro_text_images{
                 
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
                 > img{
                     width: 100%;
                     border: var(--bs);

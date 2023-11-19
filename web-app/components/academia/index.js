@@ -44,11 +44,15 @@ export default function Academia() {
                   Thin Film Irredecence 
               </div>
               <div onClick={e => {setProject("Physic Sim with NCA")}}>
-                  Physic Sim with NCA 
+                  Physic Sim. with NCA 
               </div>
-              <div onClick={e => {setProject(p => p ="HPC")}}>
-                  Efficient MPC
-              </div>
+              {
+                /*
+                  <div onClick={e => {setProject(p => p ="HPC")}}>
+                      Efficient MPC
+                  </div>
+                */
+              }
               <div onClick={e => {setProject("MRViz")}}>
                   MRViz
               </div>

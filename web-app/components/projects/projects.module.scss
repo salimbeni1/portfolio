@@ -2,8 +2,22 @@
 
 
 .main{
+
+    margin-top: 100px;
+
     > h1{
+        margin: 0px;
         margin-left: 10px;
+        margin-top: 20px;
+        display: inline-block;
+
+    }
+    > p{
+        display: inline;
+    }
+
+    a{
+        text-decoration: underline;
     }
     .xplore{
         border-top: var(--bs);
@@ -20,6 +34,7 @@
         .text{
 
             margin: 0px 10px;
+            overflow-y: scroll;
 
         }
 
@@ -55,11 +70,16 @@
         }
     }
     .personal{
+
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 10px;
         margin: 10px;
+        
+        a{
+            text-decoration: none;
+        }
 
         .pannel{
             height: 200px;
@@ -74,7 +94,11 @@
             
             > p {
                 margin: 0px 10px;
+                
             }
+        }
+        .pannel:hover{
+            background-color: var(--blue1);
         }
     }
 }
