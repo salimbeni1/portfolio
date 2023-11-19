@@ -39,30 +39,45 @@ export default class Projects extends Component {
       <h1>Personal Projects</h1>
       
       <div className={styles.personal}>
-        <div className={styles.svg_animator}>
+        <div className={styles.pannel}>
+          <h3>
           SVG-Animator
+          </h3>
+          <p>
+            Editor for SVG animations 
+          </p>
         </div>
 
-        <div>
+        <div className={styles.pannel}>
+          <h3>
           Konvertor
+          </h3>
+          <p>Online conversion from .exr to .mp4</p>
         </div>
 
-        <div> </div>
+        <div> 
 
-        <div>
+        </div>
+
+        <div className={styles.pannel}>
+          <h3>
           Koalabo
+          </h3>
+          <p>Middle/High School Website</p>
         </div>
 
-        <div>
-          Volumetric NCA
+        <div className={styles.pannel}>
+          <h3>Volumetric NCA</h3>
+          <p>Volumetric Rendering with Neural Cellular Automata</p>
         </div>
 
         <div>
           
         </div>
 
-        <div>
-          UV Photography
+        <div className={styles.pannel}>
+          <h3>UV Photography</h3>
+          <p>Amateur photography on the UV Spectrum</p>
         </div>
       </div>
       

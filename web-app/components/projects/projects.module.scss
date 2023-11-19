@@ -61,14 +61,20 @@
         gap: 10px;
         margin: 10px;
 
-        > div{
+        .pannel{
             height: 200px;
             width: 200px;
             border: var(--bs);
             cursor: pointer;
             display: grid;
+            grid-template-rows: 50% 50%;
             align-items: center;
             justify-content: center;
+            text-align: center;
+            
+            > p {
+                margin: 0px 10px;
+            }
         }
     }
 }

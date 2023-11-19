@@ -1,5 +1,7 @@
 import React, { Component , useState } from 'react'
 import styles from './academia.module.scss'
+import Spectral_renderer from './spectral_rederer'
+import PhysNCA from './PhysNCA'
 
 export default function Academia() {
 
@@ -12,9 +14,9 @@ export default function Academia() {
 
         <div className={styles.main_1}>
           <div className={styles.uni}>
-            <div>Cybersecuty</div> <div>EPFL - ETHZ</div> <div>2020 - 2023</div>
-            <div>Computer Science</div> <div>EPFL</div>  <div>2018 - 2020</div>
-            <div>Bioengennering</div> <div>EPFL</div> <div>2016 - 2018</div>
+            <div>Mst. Cybersecuty</div> <div>EPFL - ETHZ</div> <div>2020 - 2023</div>
+            <div>Bch. Computer Science</div> <div>EPFL</div>  <div>2018 - 2020</div>
+            <div>Bch. Bioengennering</div> <div>EPFL</div> <div>2016 - 2018</div>
           </div>
           <div className={styles.publications}>
             <h3>Publication</h3>
@@ -45,7 +47,7 @@ export default function Academia() {
                   Physic Sim with NCA 
               </div>
               <div onClick={e => {setProject(p => p ="HPC")}}>
-                  HPC
+                  Efficient MPC
               </div>
               <div onClick={e => {setProject("MRViz")}}>
                   MRViz
@@ -60,8 +62,8 @@ export default function Academia() {
           <div className={styles.project_CONTENT}>
 
             {project == ""? "< <- <-- <--- Select a Project":<></>}
-            {project == "Thin Film Irredecence"? "Thin Film Irredecence ":<></>}
-            {project == "Physic Sim with NCA"? "Physic Sim with NCA ":<></>}
+            {project == "Thin Film Irredecence"? <><Spectral_renderer/> </> :<></>}
+            {project == "Physic Sim with NCA"? <PhysNCA/>:<></>}
             {project == "HPC"? "HPC ":<></>}
             {project == "MRViz"? "MRViz ":<></>}
             {project == "Log Return"? "Log Return ":<></>}

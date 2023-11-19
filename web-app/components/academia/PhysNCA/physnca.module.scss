@@ -1,0 +1,44 @@
+
+
+
+.main{
+
+    padding-left: 10px;
+    >h1{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .intro{
+
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        .image{
+            > img{
+                border: var(--bs);
+                width: 45%;
+            }
+
+        }
+
+        .intro_text{
+
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .intro_text_images{
+                
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                > img{
+                    width: 100%;
+                    border: var(--bs);
+                }
+            }
+
+        }
+    }
+}
