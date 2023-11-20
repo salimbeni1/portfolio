@@ -3,29 +3,24 @@
 
 .main{
     margin-left: 10px;
-
     > h1{
         margin: 0px;
         margin-bottom: 10px;
     }
-
     a{
         text-decoration: underline;
     }
-
     .intro{
         display: grid;
         grid-template-columns: 50% 50%;
         justify-content: center;
-
         .intro_text{
-        
+            margin-right: 30px;
         }
-
         .image{
             padding: 10px;
             > img{
-                width: 100%;
+                width: 95%;
                 border: var(--bs);
             }
         }

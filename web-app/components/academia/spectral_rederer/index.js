@@ -9,6 +9,10 @@ export default function Spectral_renderer() {
 
     <div className={styles.intro}>
 
+        <div className={styles.image}>
+            <img src='academia_projects\spectral_renderer\spectral_renderer_final.png' />
+        </div>
+
         <div className={styles.intro_text}>
             <p>
                 The image on the right, is my entry for the competition of the Advanced Compupter Graphic course of Wenzel Jackob at EPFL.
@@ -31,9 +35,7 @@ export default function Spectral_renderer() {
        
         </div>
 
-        <div className={styles.image}>
-            <img src='academia_projects\spectral_renderer\spectral_renderer_final.png' />
-        </div>
+       
     </div>
     
     

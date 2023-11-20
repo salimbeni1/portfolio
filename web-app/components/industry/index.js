@@ -16,14 +16,16 @@ export default class Industry extends Component {
             </div>
 
             <div className={styles.Oracle_2}>
-                ML based anomaly detection of database transactions.
-               Cross-Compilation of python modules with C++ and java bindings from Linux x86 to MacOs arm64
+                <ul>
+                    <li>Thesis on ML uncertainty and security</li>
+                    <li>LLM based agent for text to api</li>
+                    <li>ML based anomaly detection of oracle db servers</li>
+                    <li>Cross-Compilation of python modules with C++ and java bindings from Linux x86 to MacOs arm64</li>
+                </ul>
             </div>
 
             <div className={styles.Oracle_3}>
-
                 <img src="Oracle.png" alt="Oracle Logo" width="200" height="auto"/>
-
             </div>
         </div>
 
@@ -34,8 +36,11 @@ export default class Industry extends Component {
                 <div>Cyber Defence Campus</div>
             </div>
             <div className={styles.Armasuisse_2}>
-                Optimize a large scale network flow anomaly detection pipeline to replace Splunk.
-                Deployment of deception systems within the network DMZ.
+                <ul>
+                    <li>Deploy and mantain a large scale network flow anomaly detection infrastructure to replace Splunk. (Kafka, Spark, Kubernetes, KubeFlow, ...)</li>
+                    <li>Deploy, harden and monitor deception systems traps for the network DMZ.</li>
+                </ul>
+                
             </div>
             <div className={styles.Armasuisse_3}>
 
@@ -50,9 +55,12 @@ export default class Industry extends Component {
                 <div>Niantic Infrastructure Security Group</div>
             </div>
             <div className={styles.Niantic_2}> 
-                Automate Google Cloud assets and threats discovery.
-                Run security code review on custom authorization
-                and authentication services: OAuth2, OpenID
+                <ul>
+                    <li>Automate Google Cloud assets and threats discovery</li>
+                    <li>Run security code review on custom authorization and authentication services: OAuth2, OpenID</li>
+                </ul>
+                
+                
             </div>
             <div className={styles.Niantic_3}>
                 <img src="Niantic.svg" alt="Oracle Logo" width="200" height="auto"/>

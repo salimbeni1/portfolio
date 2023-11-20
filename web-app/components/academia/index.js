@@ -2,6 +2,8 @@ import React, { Component , useState } from 'react'
 import styles from './academia.module.scss'
 import Spectral_renderer from './spectral_rederer'
 import PhysNCA from './PhysNCA'
+import MRViz from './MRViz'
+import LogReturn from './LogReturn'
 
 export default function Academia() {
 
@@ -27,8 +29,7 @@ export default function Academia() {
                 <div>, Nina Mainusch *</div>
                 <div>, Dario Pasquini</div>
               </div>
-              <div> Deep Learning and Security Workshop ( IEEE S&P ) </div>
-            
+              <div> Deep Learning and Security Workshop ( IEEE S&P ) <a href='https://arxiv.org/abs/2306.08638' target='_blank'>arXiv</a> <a href='https://github.com/spring-epfl/DCM_sp' target='_blank'>repo</a> </div>
             
             </div>
           </div>
@@ -65,12 +66,12 @@ export default function Academia() {
 
           <div className={styles.project_CONTENT}>
 
-            {project == ""? "< <- <-- <--- Select a Project":<></>}
+            {project == ""? "":<></>}
             {project == "Thin Film Irredecence"? <><Spectral_renderer/> </> :<></>}
             {project == "Physic Sim with NCA"? <PhysNCA/>:<></>}
             {project == "HPC"? "HPC ":<></>}
-            {project == "MRViz"? "MRViz ":<></>}
-            {project == "Log Return"? "Log Return ":<></>}
+            {project == "MRViz"? <MRViz/>:<></>}
+            {project == "Log Return"? <LogReturn/> :<></>}
 
           </div>
           
