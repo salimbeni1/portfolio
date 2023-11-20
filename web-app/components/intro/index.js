@@ -38,7 +38,7 @@ export default class Intro extends Component {
               <div className={styles.text}>
                 <div>
                 <p>
-                  Hi there! I m Etienne Salimbeni, currently pursuing a joint Master s degree at EPFL Lausanne and ETHZ Zurich. 
+                  Hi there! I m Etienne Salimbeni, currently pursuing a joint Master s degree in Computer Science at EPFL Lausanne and ETHZ Zurich. 
                 </p>
                 <p> 
                   I m working on my thesis with guidance from Francesco Craighero and Pierre Vandergheynst, and I ve also completed a project with Dario Pasquini and Carmela Troncoso.

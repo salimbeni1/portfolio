@@ -31,6 +31,7 @@ export default function Main() {
         </div>
         <div className={styles.header2}>
             <div className={styles.sec1}>
+              
               <div className={styles.sec1_1}></div>
               <div className={styles.sec1_2}>
                 <div className={styles.sec1_2_1}></div>  

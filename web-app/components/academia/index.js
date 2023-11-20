@@ -1,4 +1,4 @@
-import React, { Component , useState } from 'react'
+import React, { Component , useEffect , useState } from 'react'
 import styles from './academia.module.scss'
 import Spectral_renderer from './spectral_rederer'
 import PhysNCA from './PhysNCA'

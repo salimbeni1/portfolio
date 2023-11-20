@@ -10,7 +10,7 @@ export default function MRViz() {
         <div className={styles.container}>
 
             <div> 
-                <video src='academia_projects\MRViz\video.mp4'/>
+                <video controls="controls" src='academia_projects\MRViz\video.mp4'/>
             </div>
             <div className={styles.text}>
                 <p>Collaboration with <a href='https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/' target='_blank'>Microsoft Mixed Reality Labs</a>, Zurich.</p>
