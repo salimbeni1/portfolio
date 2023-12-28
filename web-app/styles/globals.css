@@ -1,52 +1,87 @@
-:root {
-  --bs: 3px solid black;
-  --bg: rgb(249, 255, 254);
-  --red1: rgb(231, 40, 10);
-  --orange1: rgb(234, 163, 12);
-  --blue1: rgb(17, 88, 231);
-  --yellow1: rgb(228, 228, 17);
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
 
-/* width */
-::-webkit-scrollbar {
-  width: 3px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #ffffff; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: black; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-}
-
-
-html,
-body {
-  padding: 0;
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-
-  background-color: var(--bg);
-
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+  padding: 0;
   box-sizing: border-box;
+}
+
+/* Tags */
+.react {
+  border: 0.1rem solid rgb(97, 218, 251);
+}
+.react:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+
+.node {
+  border: 0.1rem solid rgb(131, 205, 41);
+}
+.node:hover {
+  background: rgba(131, 205, 41, 0.25);
+}
+
+.mongodb {
+  border: 0.1rem solid rgb(67, 153, 52);
+}
+.mongodb:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+
+.redux {
+  border: 0.1rem solid rgb(118, 74, 188);
+}
+.redux:hover {
+  background: rgba(118, 74, 188, 0.25);
+}
+
+.razorpay {
+  border: 0.1rem solid rgb(82, 143, 240);
+}
+.razorpay:hover {
+  background: rgba(82, 143, 240, 0.25);
+}
+
+.material-ui {
+  border: 0.1rem solid rgb(25, 118, 210);
+}
+.material-ui:hover {
+  background: rgba(25, 118, 210, 0.25);
+}
+
+.bulma {
+  border: 0.1rem solid rgb(0, 209, 178);
+}
+.bulma:hover {
+  background: rgb(0, 209, 178, 0.25);
+}
+
+.next {
+  border: 2px solid rgb(0, 112, 243);
+}
+.next:hover {
+  background: rgba(0, 112, 243, 0.25);
+}
+
+.tailwind {
+  border: 2px solid rgb(6, 182, 212);
+}
+.tailwind:hover {
+  background: rgba(6, 182, 212, 0.25);
+}
+
+.react-query {
+  border: 2px solid rgb(255, 65, 84);
+}
+.react-query:hover {
+  background: rgba(255, 65, 84, 0.25);
+}
+
+.css-modules {
+  border: 2px solid rgb(21, 114, 182);
+}
+.css-modules:hover {
+  background: rgba(21, 114, 182, 0.25);
 }
