@@ -8,35 +8,43 @@ const WorkExperiencePage = ({ projects }) => {
 
       <div className={styles.container}>
         
-        <h1>Oracle</h1>
-        <h3>Research Assistant</h3>
-        <div>Oracle Cloud and AI security Group</div>
-        <ul>
+        <div style={{display:"flex" , flexDirection:"row" , gap:"20px" , alignItems:"baseline" , flexWrap:"wrap"}}>
+          <img src="Oracle.png" alt="Oracle Logo" width="200" height="auto"/>
+          <h3>Research Assistant</h3>
+          <h4> Feb. 2023 - Present </h4>
+        </div>
+        <div>Cloud and AI Security Research Group</div>
+        <ul style={{paddingLeft:"15px"}}>
             <li>Thesis on ML uncertainty and security</li>
             <li>LLM based agent for text to api</li>
             <li>ML based anomaly detection of oracle db servers</li>
             <li>Cross-Compilation of python modules with C++ and java bindings from Linux x86 to MacOs arm64</li>
         </ul>
-        <img src="Oracle.png" alt="Oracle Logo" width="200" height="auto"/>
-
-        <h1>Armasuisse CYD</h1>
-        <h3>Software Engineer Intern</h3>
-        <div>Cyber Defence Campus</div>
-        <ul>
+        
+        <div style={{display:"flex" , flexDirection:"row" , gap:"20px" , alignItems:"baseline" , flexWrap:"wrap"}}>
+          <img src="armasuisse.png" alt="armasuisse Logo" width="200" height="auto"/>
+          <h1>Armasuisse CYD</h1>
+          <h3>Software Engineer Intern</h3>
+          <h4> Sept. 2022 - Jan. 2023 </h4>
+        </div>
+        <div>Cyber Defence Campus, CYD</div>
+        <ul style={{paddingLeft:"15px"}}>
             <li>Deploy and mantain a large scale network flow anomaly detection infrastructure to replace Splunk. (Kafka, Spark, Kubernetes, KubeFlow, ...)</li>
             <li>Deploy, harden and monitor deception systems traps for the network DMZ.</li>
         </ul>
-        <img src="armasuisse.png" alt="armasuisse Logo" width="200" height="auto"/>
+        
 
-
-        <h1>Niantic</h1>
-        <h3>Security Engineer Intern</h3>
+        <div style={{display:"flex" , flexDirection:"row" , gap:"20px" , alignItems:"baseline" , flexWrap:"wrap"}}>
+          <img src="Niantic.svg" alt="Niantic Logo" width="200" height="auto"/>
+          <h3>Security Engineer Intern</h3>  
+          <h4> Sept. 2022 - Jan. 2023 </h4>
+        </div>
         <div>Niantic Infrastructure Security Group</div>
-        <ul>
+        <ul style={{paddingLeft:"15px"}}>
             <li>Automate Google Cloud assets and threats discovery</li>
             <li>Run security code review on custom authorization and authentication services: OAuth2, OpenID</li>
         </ul>
-        <img src="Niantic.svg" alt="Niantic Logo" width="200" height="auto"/>
+        
 
         <h3>University</h3>
 
@@ -55,7 +63,7 @@ const WorkExperiencePage = ({ projects }) => {
 
             <p>I had the chance to lead the Navigation team of Xplore (8 pationate researchers !). Our focus was on the development of Perception, Planning and Localization of a rover in a full autonomous navigation framework. </p>
             <p>During that year, together with the team, we :</p>
-            <ul>
+            <ul style={{paddingLeft:"15px"}}>
               <li>Collaborated with <a href='https://www.epfl.ch/labs/vita/' target='_blank'>EPFL VITA lab</a> on LiDAR sensor mapping</li>
               <li>Collaborated with <a href='https://www.maxongroup.ch/' target='_blank'>MAXON</a> on new motor drivers </li>
               <li>Supervised semester project and thesis for Bachelors and Masters </li>
