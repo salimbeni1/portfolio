@@ -14,7 +14,7 @@ export default function HomePage() {
           <div className={styles.content}>
             <h1 className={styles.name}>Etienne Salimbeni</h1>
             <h6 className={styles.bio}>
-              Warning : Website in construction ...
+              Warning : I am actively building this website, some pages may not work
             </h6>
 
 

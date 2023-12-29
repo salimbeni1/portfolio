@@ -35,7 +35,7 @@ const explorerItems = [
   {
     name: 'work_experience.md',
     path: '/work_experience',
-    icon: 'markdown_icon.svg',
+    icon: 'js_icon.svg',
   },
 ];
 

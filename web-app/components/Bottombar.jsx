@@ -11,6 +11,7 @@ const Bottombar = () => {
     <footer className={styles.bottomBar}>
       <div className={styles.container}>
         <a
+          style={{background:"transparent"}}
           href="https://github.com/salimbeni1/portfolio"
           target="_blank"
           rel="noreferrer noopener"

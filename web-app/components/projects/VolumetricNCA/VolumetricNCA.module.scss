@@ -13,9 +13,18 @@
         justify-content: center;
         .intro_text{
             margin-right: 30px;
+            display: flex;
+            flex-direction: column;
+
+            video{
+                align-self: baseline;
+                width: 100%;
+            }
         }
         .image{
-            padding: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
             > img{
                 width: 95%;
                 border: var(--bs);

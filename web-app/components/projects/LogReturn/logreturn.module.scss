@@ -1,36 +1,25 @@
 
 
 .main{
-
     padding-left: 10px;
     >h1{
         margin: 0px;
         margin-bottom: 10px;
     }
-    a{
-        //color: var(--blue1);
-        text-decoration: underline;
-    }
-
     .container{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 2fr ;
         gap: 10px;
-
         .text {
-            
+            margin: 20px; 
         }
-
         .images{
             display: flex;
             flex-direction: column;
-
             img{
                 width: 100%;
                 border: var(--bs);
             }
         }
-
     }
-
 }

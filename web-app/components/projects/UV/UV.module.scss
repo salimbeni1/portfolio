@@ -1,8 +1,6 @@
 
 
-
 .main{
-
     padding-left: 10px;
     >h1{
         margin: 0px;
@@ -10,17 +8,14 @@
     }
     .container{
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr ;
         gap: 10px;
-
         .text {
-            margin-right: 100px;
+            
         }
 
-        video {
-            width: 95%;
-            border: var(--bs);
+        img{
+            width: 45%;
         }
     }
-
 }

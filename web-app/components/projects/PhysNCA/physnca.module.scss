@@ -1,21 +1,10 @@
-
-
-
 .main{
-
     padding-left: 10px;
     >h1{
         margin: 0px;
         margin-bottom: 10px;
     }
-
-    a{
-        //color: var(--blue1);
-        text-decoration: underline;
-    }
-
     .intro{
-
         display: grid;
         grid-template-columns: 50% 50%;
 
@@ -25,20 +14,9 @@
             justify-content: center;
             > img{
                 border: var(--bs);
-                width: 95%;
+                width: 100%;
             }
-
-        }
-
-        .intro_text{
-
-            margin-right: 20px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-
-            .intro_text_images{
-                
+            .intro_text_images{   
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
                 > img{
@@ -46,7 +24,13 @@
                     border: var(--bs);
                 }
             }
-
+        }
+        .intro_text{
+            margin-right: 20px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
     }
 }
