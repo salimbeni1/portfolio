@@ -1,16 +1,17 @@
 import React, { Component , useState } from 'react'
 import styles from './svganimator.module.scss'
 
+
 export default function SVGAnimator() {
 
     return (<div className={styles.main}>
     
-    <h1>SVG Animator tool</h1>
+    <h1>SVG Animation Tool</h1>
 
     <div className={styles.intro}>
 
         <div className={styles.image}>
-            <img src='svg_animator_gif.gif' />
+            <img src='/svg_animator_gif.gif' />
         </div>
 
         <div className={styles.intro_text}>

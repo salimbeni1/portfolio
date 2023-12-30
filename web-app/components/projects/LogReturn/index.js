@@ -9,7 +9,7 @@ export default function LogReturn() {
 
         <div className={styles.container}>
             <div className={styles.images}>
-                <img src='academia_projects\LogReturn\plot1.png'/>
+                <img src='academia_projects\LogReturn\gif.gif'/>
             </div>
             <div className={styles.text}>
                     <p>We use the minimum spanning tree (MST) to compress the fully connected graph of all possible corrolations of markets. MST show to be an efficient algorithm to get an estimation of the dominant dependence dynamics of the market. </p>

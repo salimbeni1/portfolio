@@ -14,7 +14,7 @@ export default function VolumetricNCA() {
                 Experiments with 3D Neural Cellular Automata, combined with clip and a differentiable volumetric renderer.
             </p>
 
-            <br/>
+            <img src='academia_projects\VolumetricNCA\diagram.png' />  
             
         </div>
 
