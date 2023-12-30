@@ -10,7 +10,7 @@ export default function MRViz() {
         <div className={styles.container}>
 
             <div> 
-                <video controls="controls" src='academia_projects\MRViz\video.mp4'/>
+                <img src='academia_projects\MRViz\video.gif'/>
             </div>
             <div className={styles.text}>
                 <p> Hololen headset application to visualize sensors and maps in real time mapped to the real world on the robot. </p>

@@ -15,20 +15,27 @@ export default function VolumetricNCA() {
             </p>
 
             <br/>
+            
+        </div>
+
+        <div>
             <p>Some examples of generated volumes :</p>
+            
             <br/>
 
-            <img src='academia_projects\VolumetricNCA\rabbit.gif'  />
+            <div className={styles.image}>
+                <img src='academia_projects\VolumetricNCA\1.png' />
+                <img src='academia_projects\VolumetricNCA\2.png' />
+                <img src='academia_projects\VolumetricNCA\3.png' />
+                <img src='academia_projects\VolumetricNCA\4.png' />
+                <img src='academia_projects\VolumetricNCA\5.png' />
+                <img src='academia_projects\VolumetricNCA\6.png' />
+                <img src='academia_projects\VolumetricNCA\rabbit.gif' className={styles.imagefw}/>
+            </div>
+
         </div>
 
-        <div className={styles.image}>
-            <img src='academia_projects\VolumetricNCA\1.png' />
-            <img src='academia_projects\VolumetricNCA\2.png' />
-            <img src='academia_projects\VolumetricNCA\3.png' />
-            <img src='academia_projects\VolumetricNCA\4.png' />
-            <img src='academia_projects\VolumetricNCA\5.png' />
-            <img src='academia_projects\VolumetricNCA\1.png' />
-        </div>
+       
 
        
     </div>

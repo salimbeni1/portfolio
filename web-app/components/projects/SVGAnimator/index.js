@@ -10,7 +10,7 @@ export default function SVGAnimator() {
     <div className={styles.intro}>
 
         <div className={styles.image}>
-            <img src='svg_animator.png' />
+            <img src='svg_animator_gif.gif' />
         </div>
 
         <div className={styles.intro_text}>
