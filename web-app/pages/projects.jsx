@@ -8,6 +8,7 @@ import VolumetricNCA from '../components/projects/VolumetricNCA';
 import Konvertor from '../components/projects/Konvertor';
 import Koalabo from '../components/projects/Koalabo';
 import UV from '../components/projects/UV';
+import PasswordCracking from '../components/projects/PasswordCracking';
 
 
 const ProjectsPage = ({ projects }) => {
@@ -16,6 +17,9 @@ const ProjectsPage = ({ projects }) => {
       <h3>Some fun project I have been working on 🔥🔥🔥 </h3>
 
       <div className={styles.container}>
+
+
+        <PasswordCracking/>
         
         <SVGAnimator/>
 

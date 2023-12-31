@@ -13,11 +13,10 @@ const WorkExperiencePage = ({ projects }) => {
           <h4> Feb. 2023 - Present </h4>
         </div>
         <div>Cloud and AI Security Research Group</div>
-        <ul style={{paddingLeft:"15px"}}>
-            <li>Thesis on ML uncertainty and security</li>
-            <li>LLM based agent for text to api</li>
-            <li>ML based anomaly detection of oracle db servers</li>
-            <li>Cross-Compilation of python modules with C++ and java bindings from Linux x86 to MacOs arm64</li>
+        <ul style={{paddingLeft:"15px" , maxWidth:"800px"}}>
+            <li>Master Thesis : Secure and monitor LLM based applications served on Oracle Cloud</li>
+            <li>KB-SQL : ML based anomaly detection of oracle database server logs</li>
+            <li>Custum cross-compilation pipeline for python modules with C++ and java bindings from Linux x86 to MacOs arm64</li>
         </ul>
         
         <div className={styles.inlineFlex}>
@@ -27,7 +26,7 @@ const WorkExperiencePage = ({ projects }) => {
           <h4> Sept. 2022 - Jan. 2023 </h4>
         </div>
         <div>Cyber Defence Campus, CYD</div>
-        <ul style={{paddingLeft:"15px"}}>
+        <ul style={{paddingLeft:"15px", maxWidth:"800px"}}>
             <li>Deploy and mantain a large scale network flow anomaly detection infrastructure to replace Splunk. (Kafka, Spark, Kubernetes, KubeFlow, ...)</li>
             <li>Deploy, harden and monitor deception systems traps for the network DMZ.</li>
         </ul>
@@ -38,7 +37,7 @@ const WorkExperiencePage = ({ projects }) => {
           <h4> Apr. 2022 - Sept. 2022 </h4>
         </div>
         <div>Niantic Infrastructure Security Group</div>
-        <ul style={{paddingLeft:"15px"}}>
+        <ul style={{paddingLeft:"15px", maxWidth:"800px"}}>
             <li>Automate Google Cloud assets and threats discovery</li>
             <li>Run security code review on custom authorization and authentication services: OAuth2, OpenID</li>
         </ul>
