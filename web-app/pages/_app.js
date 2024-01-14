@@ -20,7 +20,6 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Head title={`Etienne Salimbeni | ${pageProps.title}`} />
       <Component {...pageProps} />
-      <Script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=_DpzN4jsym39EjKuInOrNcu-fQx1Sh7WYuds9G9BdCw&co=3f4f5a&cmo=d0ab5b&cmn=ebf335"/>
     </Layout>
   );
 }

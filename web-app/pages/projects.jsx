@@ -10,8 +10,16 @@ import Koalabo from '../components/projects/Koalabo';
 import UV from '../components/projects/UV';
 import PasswordCracking from '../components/projects/PasswordCracking';
 
+import dynamic from 'next/dynamic'
+
+
+const DynamicSHS = dynamic(() => import('../components/projects/SHS'), {
+  ssr: false,
+})
 
 const ProjectsPage = ({ projects }) => {
+
+
   return (
     <>
       <h3>Some fun project I have been working on 🔥🔥🔥 </h3>
@@ -26,8 +34,8 @@ const ProjectsPage = ({ projects }) => {
         <MRViz/>
         
         <Spectral_renderer/>
-        <PhysNCA/>
         <VolumetricNCA/>
+        <PhysNCA/>
         
         <LogReturn/>
         <Konvertor/>
@@ -35,6 +43,8 @@ const ProjectsPage = ({ projects }) => {
         <Koalabo/>
 
         <UV/>
+
+        <DynamicSHS/>
         
       </div>
     </>

@@ -14,14 +14,18 @@
             
         }
 
-        .images{
+        img{
+            width: 45%;
+        }
+
+        .pdfs{
+            height: 100px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             gap: 10px;
         }
-        img{
-            width: 45%;
-        }
     }
+
+    
 }

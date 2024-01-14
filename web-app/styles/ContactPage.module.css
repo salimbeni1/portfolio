@@ -1,3 +1,11 @@
+.clustermaps{
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+
 .container {
   display: flex;
   justify-content: center;

@@ -12,10 +12,13 @@ export default function UV() {
                     <p> I unmounted my DSLR camera to remove its internal filter and replaced it with a UV one. </p>
             </div>
 
-
-            <img src='rob_UV.jpeg'/>
-
-            
+            <div className={styles.images}>
+                <img src='uv/3.jpeg'/>
+                <img src='uv/0.jpg'/>
+                <img src='uv/1.jpg'/>
+                <img src='uv/2.jpg'/>
+            </div>
+             
         </div>
 
     </div>)
