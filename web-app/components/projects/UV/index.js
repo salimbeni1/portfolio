@@ -1,5 +1,6 @@
 import React, { Component , useState } from 'react'
 import styles from './UV.module.scss'
+import Image from 'next/image'
 
 export default function UV() {
 
@@ -13,10 +14,54 @@ export default function UV() {
             </div>
 
             <div className={styles.images}>
-                <img src='uv/3.jpeg'/>
-                <img src='uv/0.jpg'/>
-                <img src='uv/1.jpg'/>
-                <img src='uv/2.jpg'/>
+                <div className={styles.div1}>
+
+                    <Image
+                        src='/uv/3.jpeg'
+                        layout='fill'
+                        object-fit="contain"
+                        alt="Picture of the author"
+                        
+                    />
+
+                </div>
+
+                <div className={styles.div1}>
+
+                    <Image
+                        src='/uv/0.jpg'
+                        layout='fill'
+                        object-fit="contain"
+                        alt="Picture of the author"
+                        
+                    />
+
+                </div>
+
+                <div className={styles.div1}>
+
+                    <Image
+                        
+                        src='/uv/1.jpg'
+                        layout='fill'
+                        object-fit="contain"
+                        alt="Picture of the author"
+                    />
+
+                </div>
+
+                <div className={styles.div1}>
+
+                    <Image
+                        
+                        src='/uv/2.jpg'
+                        layout='fill'
+                        object-fit="contain"
+                        alt="Picture of the author"
+                    />
+
+                </div>
+                
             </div>
              
         </div>

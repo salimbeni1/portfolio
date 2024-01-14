@@ -1,5 +1,14 @@
+'use client';
 import React, { Component , useState } from 'react'
 import styles from './PasswordCracking.module.scss'
+import { Document, Page } from 'react-pdf';
+
+import { pdfjs } from 'react-pdf';
+
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.js',
+  import.meta.url,
+).toString();
 
 export default function PasswordCracking() {
 
@@ -10,9 +19,9 @@ export default function PasswordCracking() {
         <div className={styles.container}>
 
             <div className={styles.text}>
-                    <p>We investigate the effectiveness of deep-learning-based password guessing models for targeted attacks on human-chosen passwords.</p>
+                    <p>Expose vulnerable password authentication systems to targeted user attacks with deep learning.</p>
                     <br/>
-                    <p>Work done with Dario Pasquini and Nina Mainusch, at Prof. Carmela Troncoso Spring Lab, EPFL </p>
+                    <p>Work done at Spring Lab, EPFL. </p>
                     <br/>
                     <p>Publication at S&P 2023, Workshop on Deep Learning and Security</p>
                     <br/>
@@ -22,9 +31,23 @@ export default function PasswordCracking() {
             </div>
 
             <div className={styles.images}>
-                <img src='academia_projects\PasswordCracking\1.png'/>
-                <img src='academia_projects\PasswordCracking\2.png'/>
-                <img src='academia_projects\PasswordCracking\3.png'/>
+                <div>
+                    <Document file="dlsp2023.pdf" >
+                        <Page pageNumber={1} width={200} renderAnnotationLayer={false} renderTextLayer={false}/>
+                    </Document>
+                </div>
+                
+                <div>
+                    <Document file="dlsp2023.pdf" >
+                        <Page pageNumber={2} width={200}  renderAnnotationLayer={false}  renderTextLayer={false}/>
+                    </Document>
+                </div>
+
+                <div>
+                    <Document file="dlsp2023.pdf" >
+                        <Page pageNumber={3} width={200} renderAnnotationLayer={false}  renderTextLayer={false}/>
+                    </Document>
+                </div>
             </div>
             
         </div>

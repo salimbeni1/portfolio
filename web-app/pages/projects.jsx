@@ -8,12 +8,15 @@ import VolumetricNCA from '../components/projects/VolumetricNCA';
 import Konvertor from '../components/projects/Konvertor';
 import Koalabo from '../components/projects/Koalabo';
 import UV from '../components/projects/UV';
-import PasswordCracking from '../components/projects/PasswordCracking';
 
 import dynamic from 'next/dynamic'
 
 
 const DynamicSHS = dynamic(() => import('../components/projects/SHS'), {
+  ssr: false,
+})
+
+const DynamicPasswordCracking = dynamic(() => import('../components/projects/PasswordCracking'), {
   ssr: false,
 })
 
@@ -27,7 +30,7 @@ const ProjectsPage = ({ projects }) => {
       <div className={styles.container}>
 
 
-        <PasswordCracking/>
+        <DynamicPasswordCracking/>
         
         <SVGAnimator/>
 

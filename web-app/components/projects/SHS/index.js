@@ -26,25 +26,25 @@ export default function SHS() {
             <div className={styles.pdfs}>
                 <div>
                     <Document file="shs\Affiche IVREA_compressed.pdf" >
-                        <Page pageNumber={2} width={200} canvasBackground="transparent" renderTextLayer={false}/>
+                        <Page pageNumber={2} width={200} canvasBackground="transparent" renderAnnotationLayer={false}  renderTextLayer={false}/>
                     </Document>
                 </div>
                 
                 <div>
                     <Document file="shs\Affiche IVREA_compressed.pdf" >
-                        <Page pageNumber={1} width={200} canvasBackground="transparent" renderTextLayer={false}/>
+                        <Page pageNumber={1} width={200} canvasBackground="transparent" renderAnnotationLayer={false}  renderTextLayer={false}/>
                     </Document>
                 </div>
 
                 <div>
                     <Document file="shs\gym_compressed.pdf" >
-                        <Page pageNumber={1} width={200} canvasBackground="transparent" renderTextLayer={false}/>
+                        <Page pageNumber={1} width={200} canvasBackground="transparent" renderAnnotationLayer={false}  renderTextLayer={false}/>
                     </Document>
                 </div>
 
                 <div>
                     <Document file="shs\telefone_compressed.pdf" >
-                        <Page pageNumber={1} width={200} canvasBackground="transparent" renderTextLayer={false} />
+                        <Page pageNumber={1} width={200} canvasBackground="transparent" renderAnnotationLayer={false}  renderTextLayer={false} />
                     </Document>
                 </div>
             </div>
