@@ -25,30 +25,48 @@ const ProjectsPage = ({ projects }) => {
 
   return (
     <>
-      <h3>Some fun project I have been working on 🔥🔥🔥 </h3>
-
       <div className={styles.container}>
 
 
-        <DynamicPasswordCracking/>
-        
-        <SVGAnimator/>
+        <div className={styles.subCtn}>
+          <DynamicPasswordCracking/>
+        </div>
+       
+        <div className={styles.subCtn}>
+          <SVGAnimator/>
+        </div>
 
+        <div className={styles.subCtn}>
         <MRViz/>
-        
+        </div>
+        <div className={styles.subCtn}>
         <Spectral_renderer/>
+        </div>
+        <div className={styles.subCtn}>
         <VolumetricNCA/>
+        </div>
+        <div className={styles.subCtn}>
         <PhysNCA/>
-        
+        </div>
+        <div className={styles.subCtn}>
         <LogReturn/>
+        </div>
+        <div className={styles.subCtn}>
         <Konvertor/>
-        
+        </div>
+
+        <div className={styles.subCtn}>
         <Koalabo/>
+        </div>
 
+        <div className={styles.subCtn}>
         <UV/>
+        </div>
 
+        <div className={styles.subCtn}>
         <DynamicSHS/>
-        
+        </div>
+                
       </div>
     </>
   );

@@ -3,4 +3,24 @@
   display: flex;
   flex-direction: column;
   gap: 4.5rem;
+
+
+
+
+  .subCtn {
+    background-color: rgba(152, 152, 152, 0.077);
+    padding: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-left: 5px solid rgba(97, 97, 97, 0.204);
+
+  }
+
+  .subCtn:hover {
+    border-left: 5px solid rgb(47, 83, 193);
+    background-color: rgba(233, 233, 233, 0.126);
+
+  }
+
+
 }

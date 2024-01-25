@@ -4,35 +4,39 @@ import styles from '../styles/work_experiencePage.module.scss';
 const WorkExperiencePage = ({ projects }) => {
   return (
     <>
-      <h3>Work Experience</h3>
       <div className={styles.container}>
-        
-        <div className={styles.inlineFlex}>
-          <img src="Oracle.png" alt="Oracle Logo" width="200" height="auto"/>
-          <h3>Research Assistant</h3>
-          <h4> Feb. 2023 - Present </h4>
-        </div>
-        <div>Cloud and AI Security Research Group</div>
-        <ul style={{paddingLeft:"15px" , maxWidth:"800px"}}>
-            <li>Master Thesis : Secure and monitor LLM based applications served on Oracle Cloud</li>
-            <li>KB-SQL : ML based anomaly detection of oracle database server logs</li>
-            <li>Custum cross-compilation pipeline for python modules with C++ and java bindings from Linux x86 to MacOs arm64</li>
-        </ul>
-        
-        <div className={styles.inlineFlex}>
-          <img src="Coat_of_Arms_of_Switzerland.svg" alt="armasuisse Logo" width="50" height="auto"/>
-          <h1>Armasuisse</h1>
-          <h3>Software Engineer Intern</h3>
-          <h4> Sept. 2022 - Jan. 2023 </h4>
-        </div>
-        <div>Cyber Defence Campus, CYD</div>
-        <ul style={{paddingLeft:"15px", maxWidth:"800px"}}>
-            <li>Deploy and mantain a large scale network flow anomaly detection infrastructure to replace Splunk. (Kafka, Spark, Kubernetes, KubeFlow, ...)</li>
-            <li>Deploy, harden and monitor deception systems traps for the network DMZ.</li>
-        </ul>
 
+        <div className={styles.subCtn}>
+          <div className={styles.inlineFlex}>
+            <img src="Oracle.png" alt="Oracle Logo" width="200" height="auto"/>
+            <h3>Research Assistant</h3>
+            <h4> Feb. 2023 - Present </h4>
+          </div>
+          <div>Cloud and AI Security Research Group</div>
+          <ul style={{paddingLeft:"15px" , maxWidth:"800px"}}>
+              <li>Master Thesis : Secure and monitor LLM based applications served on Oracle Cloud</li>
+              <li>KB-SQL : ML based anomaly detection of oracle database server logs</li>
+              <li>Custum cross-compilation pipeline for python modules with C++ and java bindings from Linux x86 to MacOs arm64</li>
+          </ul>
+        </div>
+        
+        <div className={styles.subCtn}>
+          <div className={styles.inlineFlex}>
+            <img src="Coat_of_Arms_of_Switzerland.svg" alt="armasuisse Logo" width="40" height="auto"/>
+            <h1>Armasuisse</h1>
+            <h3>Software Engineer Intern</h3>
+            <h4> Sept. 2022 - Jan. 2023 </h4>
+          </div>
+          <div>Cyber Defence Campus, CYD</div>
+          <ul style={{paddingLeft:"15px", maxWidth:"800px"}}>
+              <li>Deploy and mantain a large scale network flow anomaly detection infrastructure to replace Splunk. (Kafka, Spark, Kubernetes, KubeFlow, ...)</li>
+              <li>Deploy, harden and monitor deception systems traps for the network DMZ.</li>
+          </ul>
+        </div>
+
+        <div className={styles.subCtn}>
         <div className={styles.inlineFlex}>
-          <img src="niantic_orange_logo.png" alt="Niantic Logo" width="100" height="auto"/>
+          <img src="niantic_orange_logo.png" alt="Niantic Logo" width="80" height="auto"/>
           <h3>Security Engineer Intern</h3>  
           <h4> Apr. 2022 - Sept. 2022 </h4>
         </div>
@@ -41,11 +45,12 @@ const WorkExperiencePage = ({ projects }) => {
             <li>Automate Google Cloud assets and threats discovery</li>
             <li>Run security code review on custom authorization and authentication services: OAuth2, OpenID</li>
         </ul>
+        </div>
 
 
         <br/><br/><br/>
         
-        <h3>University</h3>
+        <div className={styles.subCtn}>
 
         <div className={styles.inlineFlex}>
           <h1>Xplore</h1>
@@ -73,12 +78,15 @@ const WorkExperiencePage = ({ projects }) => {
           </div>
         </div>
 
-
-        <div className={styles.inlineFlex}>
-          <img src="EPFL.png" alt="EPFL Logo" width="100" height="auto"/>
-          <h2>Teaching Assitant</h2>
         </div>
-        Supervising group projects, Q&A sessions, project and exam corrections for different lectures.    
+
+        <div className={styles.subCtn}>
+          <div className={styles.inlineFlex}>
+            <img src="EPFL.png" alt="EPFL Logo" width="100" height="auto"/>
+            <h2>Teaching Assitant</h2>
+          </div>
+          Supervising group projects, Q&A sessions, project and exam corrections for different lectures.    
+        </div>
       </div>
     </>
   );

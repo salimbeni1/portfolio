@@ -1,6 +1,10 @@
+import styles from '../styles/AboutPage.module.scss';
+
 const AboutPage = () => {
   return (
     <>
+
+      <div className={styles.subCtn}>
       <p>
         Hello! My name is Etienne Salimbeni. I am currently pursuing a joint Master's degree in Computer Science, a collaborative program between EPFL Lausanne and ETH Zurich.
       </p>
@@ -9,7 +13,11 @@ const AboutPage = () => {
         I gained diverse experience in ML and Security through internships at Oracle Research, at the Swiss Confederation's cyberdefense department (Armasuisse/CYD) and at Niantic Labs. 
       </p>
 
+      </div>
+
       <br/>
+
+      <div className={styles.subCtn}>
       <h1>Academic Track</h1>
 
       <div >
@@ -30,6 +38,8 @@ const AboutPage = () => {
             <div> Deep Learning and Security Workshop ( IEEE S&P ) <a href='https://arxiv.org/abs/2306.08638' target='_blank'>arXiv</a> <a href='https://github.com/spring-epfl/DCM_sp' target='_blank'>repo</a> </div>
           
           </div>
+        </div>
+
         </div>
       </div>
     </>
