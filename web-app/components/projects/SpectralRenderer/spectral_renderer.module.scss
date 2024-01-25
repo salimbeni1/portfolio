@@ -8,18 +8,19 @@
         margin-bottom: 10px;
     }
     .intro{
-        display: grid;
-        grid-template-columns: 60% 40%;
-        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
         .intro_text{
-            margin-right: 30px;
+           max-width: 33vw;
         }
         .image{
             padding: 10px;
-            > img{
-                width: 95%;
-                border: var(--bs);
-            }
+            height: 250px;
+            width: 400px;
+            position: relative;
+            overflow: hidden;
         }
     }
 }

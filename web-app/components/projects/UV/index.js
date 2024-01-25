@@ -1,6 +1,10 @@
 import React, { Component , useState } from 'react'
 import styles from './UV.module.scss'
 import Image from 'next/image'
+import uv0 from "../../../public/uv/0.jpg"
+import uv1 from "../../../public/uv/1.jpg"
+import uv2 from "../../../public/uv/2.jpg"
+import uv3 from "../../../public/uv/3.jpeg"
 
 export default function UV() {
 
@@ -17,10 +21,11 @@ export default function UV() {
                 <div className={styles.div1}>
 
                     <Image
-                        src='/uv/3.jpeg'
+                        src={uv3}
                         layout='fill'
                         object-fit="contain"
                         alt="Picture of the author"
+                        placeholder='blur'
                         
                     />
 
@@ -29,11 +34,11 @@ export default function UV() {
                 <div className={styles.div1}>
 
                     <Image
-                        src='/uv/0.jpg'
+                        src={uv0}
                         layout='fill'
                         object-fit="contain"
                         alt="Picture of the author"
-                        
+                        placeholder='blur'
                     />
 
                 </div>
@@ -42,10 +47,11 @@ export default function UV() {
 
                     <Image
                         
-                        src='/uv/1.jpg'
+                        src={uv1}
                         layout='fill'
                         object-fit="contain"
                         alt="Picture of the author"
+                        placeholder='blur'
                     />
 
                 </div>
@@ -54,10 +60,11 @@ export default function UV() {
 
                     <Image
                         
-                        src='/uv/2.jpg'
+                        src={uv2}
                         layout='fill'
                         object-fit="contain"
                         alt="Picture of the author"
+                        placeholder='blur'
                     />
 
                 </div>

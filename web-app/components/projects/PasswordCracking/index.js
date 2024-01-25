@@ -12,10 +12,13 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 
 export default function PasswordCracking() {
 
+    const [loading, setLoading] = useState(true);
+    const onDocumentLoadSuccess = () => {
+        setLoading(false);
+    };
+
     return (<div className={styles.main}>
-
         <h1>Password Cracking with Deep Learning</h1>
-
         <div className={styles.container}>
 
             <div className={styles.text}>
@@ -27,30 +30,24 @@ export default function PasswordCracking() {
                     <br/>
                     <p> ArXiv: <a href='https://arxiv.org/abs/2306.08638' target='_blank'>publication</a> </p>
                     <p> Github repo: <a href='https://github.com/spring-epfl/DCM_sp' target='_blank'>DCM_sp</a></p>
-
-            </div>
-
-            <div className={styles.images}>
-                <div>
-                    <Document file="dlsp2023.pdf" >
-                        <Page pageNumber={1} width={200} renderAnnotationLayer={false} renderTextLayer={false}/>
-                    </Document>
-                </div>
-                
-                <div>
-                    <Document file="dlsp2023.pdf" >
-                        <Page pageNumber={2} width={200}  renderAnnotationLayer={false}  renderTextLayer={false}/>
-                    </Document>
-                </div>
-
-                <div>
-                    <Document file="dlsp2023.pdf" >
-                        <Page pageNumber={3} width={200} renderAnnotationLayer={false}  renderTextLayer={false}/>
-                    </Document>
-                </div>
             </div>
             
+            <div className={styles.images}>
+                <Document file="dlsp2023.pdf"  loading={
+                    <div className={styles.loadingPlaceholder}>
+                    <div className={styles.page_loading}></div>
+                    <div className={styles.page_loading}></div>
+                    <div className={styles.page_loading}></div>
+                    </div>
+                } >           
+                            <div className={styles.filesCtn}>
+                                <Page pageNumber={1} width={200} renderAnnotationLayer={false} renderTextLayer={false}/>
+                                <Page pageNumber={2} width={200}  renderAnnotationLayer={false}  renderTextLayer={false}/>
+                                <Page pageNumber={3} width={200}  renderAnnotationLayer={false}  renderTextLayer={false}/>
+                            </div>
+                        
+                </Document>
+            </div>  
         </div>
-
     </div>)
     }

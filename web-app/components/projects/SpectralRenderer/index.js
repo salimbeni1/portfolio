@@ -1,5 +1,8 @@
 import React, { Component , useState } from 'react'
 import styles from './spectral_renderer.module.scss'
+import Image from 'next/image'
+
+import renderimage from "../../../public/academia_projects/spectral_renderer/spectral_renderer_final.png"
 
 export default function Spectral_renderer() {
 
@@ -8,8 +11,6 @@ export default function Spectral_renderer() {
     <h1>Spectral Renderer, EPFL rendering competition</h1>
 
     <div className={styles.intro}>
-
-
 
         <div className={styles.intro_text}>
             <p>
@@ -25,7 +26,14 @@ export default function Spectral_renderer() {
         </div>
 
         <div className={styles.image}>
-            <img src='academia_projects\spectral_renderer\spectral_renderer_final.png' />
+            <Image
+
+                src={renderimage}
+                layout='fill'
+                object-fit="contain"
+                alt="Picture of the author"
+                placeholder='blur'
+            />
         </div>
 
        
