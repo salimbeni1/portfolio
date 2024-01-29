@@ -1,4 +1,4 @@
-import styles from '../styles/ProjectsPage.module.css';
+import styles from '../styles/ProjectsPage.module.scss';
 import LogReturn from '../components/projects/LogReturn';
 import MRViz from '../components/projects/MRViz';
 import PhysNCA from '../components/projects/PhysNCA';
